@@ -6,7 +6,7 @@ export const Contact = () => {
     return (
         <ContactContainer id="contact" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000" >
             <H2>Contact</H2>
-            <P>Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            <P>I would love to hear from you. Wether you're need more information, have a new project or a job opportunity or even if you just want to say Hi!! Feel free to contact me.
             </P>
             <div
                 style={{
