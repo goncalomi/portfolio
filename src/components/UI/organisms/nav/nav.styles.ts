@@ -24,6 +24,8 @@ export const NavContainer = styled.nav`
 
     }
     @media ${device.laptop} {
+        display: flex;
+
         padding: 0 50px;
 
     }
