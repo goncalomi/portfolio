@@ -19,7 +19,7 @@ export const NavContainer = styled.nav`
         padding: 0px 25px;
     }
     @media ${device.tablet} {
-        display: block;
+        display: flex;
         padding: 0px 40px;
 
     }
