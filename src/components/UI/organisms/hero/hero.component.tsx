@@ -1,7 +1,7 @@
 import { COLORS, FONTSIZE } from 'assets/styles/styles';
 import { Button } from 'components/UI/atoms';
 import React from 'react';
-import { HeroDiv } from './hero.styles';
+import { HeroDiv, Span } from './hero.styles';
 // @ts-ignore
 import Typical from 'react-typical';
 
@@ -29,15 +29,31 @@ export const Hero = () => {
                     textAlign: 'left'
                 }}
             >
-                <span 
+                <h2 
                     style={{ 
-                        color: COLORS.pale,
                         fontSize:'clamp(40px, 8vw, 80px)',
                         fontWeight: 'bold',
+                        margin: '0px'
                     }}
                 >
-                    Gonçalo Ferreira.
-                </span>
+                    <Span>G</Span>
+                    <Span>o</Span>
+                    <Span>n</Span>
+                    <Span>ç</Span>
+                    <Span>a</Span>
+                    <Span>l</Span>
+                    <Span>o</Span>
+                    {' '}
+                    <Span>F</Span>
+                    <Span>e</Span>
+                    <Span>r</Span>
+                    <Span>r</Span>
+                    <Span>e</Span>
+                    <Span>i</Span>
+                    <Span>r</Span>
+                    <Span>a</Span>
+                    <Span>.</Span>
+                </h2>
             </div>
             <div
                 style={{

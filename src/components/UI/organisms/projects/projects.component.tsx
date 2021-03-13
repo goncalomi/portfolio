@@ -1,7 +1,8 @@
 import { Project } from 'components/UI/molecules';
 import React from 'react';
 import { ProjectsContainer, Span } from './projects.styles';
-import image1 from 'assets/img/web.png';
+import image1 from 'assets/img/web.gif';
+import image2 from 'assets/img/admin.gif';
 interface ProjectList {
     title: string;
     description: string;
@@ -16,14 +17,14 @@ const ProjectsList: ProjectList[] = [
         description: 'A custom real time Booking System for a local Wakepark. The Users can book runs and manage reservations.',
         skills: ['React', 'TypeScript', 'Firebase'],
         image: image1,
-        link: "#"
+        link: "https://furiaptapp.web.app/"
     },
     {
-        title: 'Furia Booking',
-        description: 'A custom real time Booking System for a local Wakepark. The Users can book runs and manage reservations.',
-        skills: ['React', 'TypeScript', 'Firebase'],
-        image: image1,
-        link: "#"
+        title: 'Furia BackOffice',
+        description: 'A custom Backoffice with integrated Content Manager and Point of Sale. Allows the company to manage and keep track of all the reservations, manage products and check sales and affluence statistics.',
+        skills: ['React', 'TypeScript', 'Firebase', 'Chart.js'],
+        image: image2,
+        link: "https://furiaptapp.web.app/furia-admin/dashboard"
     },
 ]
 

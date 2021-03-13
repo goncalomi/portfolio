@@ -24,10 +24,10 @@ export const Nav = React.forwardRef<HTMLElement>((props, ref) => {
                 </Link>
             </div>
             <LinkContainer>
-                <MenuLink label="About" color={COLORS.pale} fontSize='11px' />
-                <MenuLink label="Projects" color={COLORS.pale} fontSize='11px' />
-                <MenuLink label="Skills" color={COLORS.pale} fontSize='11px' />
-                <MenuLink label="Contact" color={COLORS.pale} fontSize='11px' />
+                <MenuLink label="About" color={COLORS.pale} fontSize='14px' />
+                <MenuLink label="Projects" color={COLORS.pale} fontSize='14px' />
+                <MenuLink label="Skills" color={COLORS.pale} fontSize='14px' />
+                <MenuLink label="Contact" color={COLORS.pale} fontSize='14px' />
                 <Button label="Resume" size="sm"  style={{margin: '0 5px'}} link={pdf} />
             </LinkContainer>
             <MenuButton handleOpen={handleOpen} open={open} />

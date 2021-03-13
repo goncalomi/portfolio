@@ -1,5 +1,5 @@
 import { device } from 'assets/queries';
-import { COLORS } from 'assets/styles/styles';
+import { COLORS, FONTSIZE } from 'assets/styles/styles';
 import styled from 'styled-components';
 
 export const ContactContainer = styled.div`
@@ -19,6 +19,7 @@ export const H2 = styled.h2`
 `;
 
 export const P = styled.p`
+    font-size: ${FONTSIZE.sm};
     color: ${COLORS.lightBlue};
     margin: 30px 0;
 `;

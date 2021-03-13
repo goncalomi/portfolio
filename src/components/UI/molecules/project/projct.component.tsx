@@ -1,5 +1,6 @@
 import { A, ContentDiv, H3, ImageContainer, ImageWrapper, Img, LI, MainDiv, Span, UL, P, PContainer } from './project.styles';
 import React from 'react';
+import { COLORS } from 'assets/styles/styles';
 
 
 interface ProjectProps {
@@ -46,6 +47,21 @@ export const Project: React.FC<ProjectProps> = ({ orientation, title, descriptio
                     <P>
                         {description}
                     </P>
+                    <p
+                        style={{
+                            color: COLORS.lightBlue
+                        }}
+                    >
+                        Demo User: <span style={{color: COLORS.pale}} >testuser@gmail.com</span>
+                    </p>
+                    <p
+                        style={{
+                            color: COLORS.lightBlue
+                        }}
+                    >
+                        Password: <span style={{color: COLORS.pale}} >testuser</span>
+
+                    </p>
                 </PContainer>
                 <UL
                     style={{
@@ -67,7 +83,7 @@ export const Project: React.FC<ProjectProps> = ({ orientation, title, descriptio
                         ))
                     }
                 </UL>
-                <A href={link}>Visit Page</A>
+                <A target="_blank" href={link}>Visit Demo Page</A>
             </ContentDiv>
         </MainDiv>
     )

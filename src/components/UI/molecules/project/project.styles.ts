@@ -37,9 +37,11 @@ export const ImageContainer = styled.div`
 
 export const Img = styled.img`
     width: 100%;
-    opacity: .3;
+    opacity: .7;
     border-radius: 5px;
-
+    @media ${device.mobile} {
+        opacity: .2;
+    }
 `;
 
 export const ImageWrapper = styled.div`
@@ -48,7 +50,10 @@ export const ImageWrapper = styled.div`
     height: 98.5%;
     background-color: rgb(245,161,91);
     border-radius: 5px;
-    opacity: .5;
+    opacity: .3;
+    &:hover {
+        background-color: transparent;
+    }
 `;
 
 export const ContentDiv = styled.div`
@@ -113,6 +118,7 @@ export const H3 = styled.h3`
 `;
 
 export const P = styled.p`
+    font-size: ${FONTSIZE.s};
     
     @media ${device.mobile} {
         color: ${COLORS.pale};

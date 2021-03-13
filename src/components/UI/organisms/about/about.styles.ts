@@ -38,7 +38,7 @@ export const Span = styled.span`
 
 export const P = styled.p`
     color: ${COLORS.lightBlue};
-    font-size: ${FONTSIZE.xs};
+    font-size: ${FONTSIZE.sm};
     text-align: justify;
 `;
 

@@ -1,3 +1,4 @@
+import { COLORS } from 'assets/styles/styles';
 import styled from 'styled-components';
 
 export const HeroDiv = styled.div`
@@ -11,4 +12,14 @@ export const HeroDiv = styled.div`
     margin: 0px auto;
     padding: 100px 0px;
     max-width: 1000px;
+`;
+
+export const Span = styled.span`
+    color: ${COLORS.pale};
+    transition: all .1s ease;
+    display: inline-block;
+    &:hover {
+        color: ${COLORS.orange};
+        transform: translateY(-10px);
+    }
 `;
