@@ -12,14 +12,12 @@ interface ProjectProps {
 }
 
 export const Project: React.FC<ProjectProps> = ({ orientation, title, description, skills, image, link }) => {
-    const fade = orientation === 'right' ? 'fade-left' : 'fade-right';
-
     return (
         <MainDiv
             style={{
                 alignItems: orientation === 'right' ? 'flex-start' : 'flex-end',
             }}
-            data-aos={fade}
+            data-aos="fade-up"
             data-aos-duration="500"
             data-aos-easing="ease-out-back"
             data-aos-delay="500"

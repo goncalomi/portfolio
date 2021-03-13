@@ -19,18 +19,18 @@ export const Skills = () => {
         <MainDiv id="skills" >
             <Span>Skills</Span>
             <Grid>
-                <Img data-aos="fade-right" data-aos-delay="500" src={Bootstrap} alt=""/>
+                <Img data-aos="fade-up" data-aos-delay="500" src={Bootstrap} alt=""/>
                 <Img data-aos="fade-up" data-aos-delay="500" src={Javascript} alt=""/>
-                <Img data-aos="fade-left" data-aos-delay="500" src={TypeScript} alt=""/>
-                <Img data-aos="fade-right" data-aos-delay="600" src={Reactsvg} alt=""/>
+                <Img data-aos="fade-up" data-aos-delay="500" src={TypeScript} alt=""/>
+                <Img data-aos="fade-up" data-aos-delay="600" src={Reactsvg} alt=""/>
                 <Img data-aos="fade-up" data-aos-delay="600" src={Firebase} alt=""/>
-                <Img data-aos="fade-left" data-aos-delay="600" src={Python} alt=""/>
-                <Img data-aos="fade-right" data-aos-delay="700" src={Django} alt=""/>
+                <Img data-aos="fade-up" data-aos-delay="600" src={Python} alt=""/>
+                <Img data-aos="fade-up" data-aos-delay="700" src={Django} alt=""/>
                 <Img data-aos="fade-up" data-aos-delay="700" src={HTML} alt=""/>
-                <Img data-aos="fade-left" data-aos-delay="700" src={CSS} alt=""/>
-                <Img data-aos="fade-right" data-aos-delay="800" src={Material} alt=""/>
+                <Img data-aos="fade-up" data-aos-delay="700" src={CSS} alt=""/>
+                <Img data-aos="fade-up" data-aos-delay="800" src={Material} alt=""/>
                 <Img data-aos="fade-up" data-aos-delay="800" src={Git} alt=""/>
-                <Img data-aos="fade-left" data-aos-delay="800" id="figma" src={Figma} alt=""/>
+                <Img data-aos="fade-up" data-aos-delay="800" id="figma" src={Figma} alt=""/>
             </Grid>
         </MainDiv>
     )

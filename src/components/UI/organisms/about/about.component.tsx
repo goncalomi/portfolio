@@ -17,7 +17,7 @@ export const About = () => {
 
     return (
         <AboutDiv 
-            data-aos="fade-left" 
+            data-aos="fade-up" 
             data-aos-easing="ease-out-back"
             data-aos-duration="800"
             id="about" 
