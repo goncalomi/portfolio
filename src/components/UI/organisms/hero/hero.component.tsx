@@ -18,7 +18,7 @@ export const Hero = () => {
                         color: COLORS.orange,
                         fontFamily: 'Roboto Mono, monospace',
                         fontSize: FONTSIZE.xs,
-                        margin: '0px 5px',
+                        margin: '0px 3px',
                     }}
                 >
                     Hello! My name is
@@ -71,7 +71,6 @@ export const Hero = () => {
                 style={{
                     maxWidth: '500px',
                     textAlign: 'left',
-                    padding: '5px',
                     fontWeight: 'lighter',
                     marginTop: '20px'
                 }}
@@ -82,7 +81,7 @@ export const Hero = () => {
                         fontSize: FONTSIZE.s,
                     }}
                 >
-                    I'm a self-taught Programmer based in Porto, Portugal,  passionate about programming and create sollutions.
+                    Self-taught Programmer based in Porto, Portugal,  passionate about programming and creating sollutions.
                 </span>
             </div>
             <Button label="Get In Touch" size="lg" style={{ marginTop: '50px' }} mail link="goncalombferreia@outlook.com" />
